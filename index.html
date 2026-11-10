@@ -9,7 +9,7 @@
 
 <body bgcolor="#f2f5f7" text="#333333" link="#1f5f8b" vlink="#1f5f8b">
 
-<!-- ENCABEZADO -->
+<!-- ENCABEZADO PRINCIPAL -->
 <table width="100%" bgcolor="#244b63" cellpadding="25" border="0">
     <tr>
         <td align="center">
@@ -42,6 +42,7 @@
 <table width="90%" align="center" bgcolor="#ffffff" border="2" cellpadding="25" cellspacing="0">
     <tr>
         <td>
+
             <h1 align="center">
                 <font face="Arial" color="#244b63">
                     ¿Necesitas ayuda técnica o una página web?
@@ -63,12 +64,16 @@
                 </font>
             </p>
 
-            <!-- IMAGEN PRINCIPAL -->
-            <p align="center">
-                <img src="Imagen%20info.jpg"
-                     alt="Imagen de Técnico Informático y Diseño Web"
-                     width="400">
-            </p>
+            <!-- IMAGEN PRINCIPAL DEBAJO DE LA PRESENTACIÓN -->
+            <div align="center">
+                <img
+                    src="./imagen%20info.jpg"
+                    alt="Imagen de Técnico Informático y Diseño Web"
+                    width="400"
+                    style="max-width:100%; height:auto; display:block; margin:auto;">
+            </div>
+
+            <br>
 
             <p align="center">
                 <a href="#contacto">
@@ -77,6 +82,7 @@
                     </font>
                 </a>
             </p>
+
         </td>
     </tr>
 </table>
@@ -226,12 +232,8 @@
             <table width="100%" border="1" cellpadding="12" cellspacing="0">
 
                 <tr bgcolor="#d9eaf2">
-                    <th align="left">
-                        <font color="#244b63" size="4">SERVICIO</font>
-                    </th>
-                    <th align="center">
-                        <font color="#244b63" size="4">PRECIO ORIENTATIVO</font>
-                    </th>
+                    <th align="left">SERVICIO</th>
+                    <th align="center">PRECIO ORIENTATIVO</th>
                 </tr>
 
                 <tr bgcolor="#f1f4f6">
@@ -313,60 +315,40 @@
                 <table width="80%" align="center" border="0" cellpadding="10" cellspacing="0">
 
                     <tr>
-                        <td width="30%">
-                            <font color="#244b63" size="3">
-                                <b>Nombre completo:</b>
-                            </font>
-                        </td>
+                        <td width="30%"><b>Nombre completo:</b></td>
                         <td>
                             <input type="text" name="nombre" size="40" maxlength="80" required>
                         </td>
                     </tr>
 
                     <tr>
-                        <td>
-                            <font color="#244b63" size="3">
-                                <b>Correo electrónico:</b>
-                            </font>
-                        </td>
+                        <td><b>Correo electrónico:</b></td>
                         <td>
                             <input type="email" name="email" size="40" maxlength="100" required>
                         </td>
                     </tr>
 
                     <tr>
-                        <td>
-                            <font color="#244b63" size="3">
-                                <b>Teléfono:</b>
-                            </font>
-                        </td>
+                        <td><b>Teléfono:</b></td>
                         <td>
                             <input type="tel" name="telefono" size="20" maxlength="20">
                         </td>
                     </tr>
 
                     <tr>
-                        <td>
-                            <font color="#244b63" size="3">
-                                <b>Tipo de servicio:</b>
-                            </font>
-                        </td>
+                        <td><b>Tipo de servicio:</b></td>
                         <td>
                             <select name="servicio">
                                 <option value="tecnico">Técnico en informática</option>
                                 <option value="web">Creación de página web</option>
                                 <option value="ambos">Ambos servicios</option>
-                                <option value="otro">Otro (especificar en mensaje)</option>
+                                <option value="otro">Otro</option>
                             </select>
                         </td>
                     </tr>
 
                     <tr>
-                        <td valign="top">
-                            <font color="#244b63" size="3">
-                                <b>Mensaje:</b>
-                            </font>
-                        </td>
+                        <td valign="top"><b>Mensaje:</b></td>
                         <td>
                             <textarea name="mensaje" rows="6" cols="50"
                             placeholder="Describe tu necesidad o problema..."></textarea>
@@ -387,7 +369,7 @@
 
             <p align="center">
                 <font color="#777777" size="2">
-                    Formulario demostrativo: para recibir solicitudes se necesita configurar un servicio de envío.
+                    Formulario demostrativo. Requiere configurar un servicio para recibir mensajes.
                 </font>
             </p>
 
@@ -397,7 +379,7 @@
 
 <br><br>
 
-<!-- INFORMACIÓN DE CONTACTO DIRECTO -->
+<!-- CONTACTO DIRECTO -->
 <table width="90%" align="center" bgcolor="#d9eaf2" border="2" cellpadding="25">
     <tr>
         <td align="center">
@@ -470,4 +452,5 @@
 
 </body>
 </html>
+
 
